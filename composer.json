@@ -1,0 +1,7 @@
+
+{
+    "require" : {
+      "braintree/braintree_php" : "6.17.0"
+    }
+  }
+  
