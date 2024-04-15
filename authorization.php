@@ -1,5 +1,5 @@
 <?php
-include('./vendor/autoload.php');
+require('./vendor/autoload.php');
 
 $gateway = new Braintree\Gateway([
   'environment' => 'sandbox',

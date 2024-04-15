@@ -5,7 +5,7 @@ var authorization = $.ajax({
   url: "authorization.php",
   data: [],
   success: function (result) {
-    console.log(result); // funcionou
+    //console.log(result); // funcionou
     criarBraintree(result);
   },
   error: function (error) {
